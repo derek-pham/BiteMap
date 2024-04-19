@@ -1,0 +1,18 @@
+{
+  "name": "bitemap",
+  "version": "1.0.0",
+  "description": "- [BiteMap](#bitemap)\r - [Background](#background)\r - [Timeframe](#timeframe)\r - [Site](#site)\r   - [Landing Page](#landing-page)\r - [Usage](#usage)\r   - [User Flow](#user-flow)\r   - [Forking Repository](#forking-repository)\r - [Known Issues](#known-issues)\r - [Technology & Structure](#technology--structure)\r   - [Frontend](#frontend)\r   - [Backend](#backend)\r   - [Database Structure](#database-structure)\r - [Future Work](#future-work)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
